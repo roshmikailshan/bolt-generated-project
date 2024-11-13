@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Navigation Bar</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <style>
+        header {
+          background-color: #162A46;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+        }
+        body {  /* Apply font to the entire body */
+          font-family: 'Montserrat', sans-serif;
+        }
+        ul {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          align-items: center;
+        }
+        li {
+          margin-left: 20px;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        button {
+          background-color: #F59622;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          font-family: 'Montserrat', sans-serif; /* Apply font to the button */
+        }
+        button:hover {
+          background-color: #FFB347;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <img src="https://via.placeholder.com/50" alt="Logo">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/business-cases">Business Cases</a></li>
+            <li><a href="/investor-room">Investor Room</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><button>Contact Us</button></li>
+          </ul>
+        </nav>
+      </header>
+    </body>
+    </html>
